@@ -4,7 +4,7 @@
   => "Hello, programmer!"
 */
 function greetProgrammer() {
-  console.log("Hello, programmer!");
+  console.log('Hello, programmer!');
 }
 
 /*
@@ -25,7 +25,7 @@ function greet(name) {
   greetWithDefault("Sunny");
   => "Hello, Sunny!"
 */
-function greetWithDefault(name = "programmer") {
+function greetWithDefault(name = 'programmer') {
   console.log(`Hello, ${name}!`);
 }
 
@@ -50,7 +50,7 @@ function add(num1, num2) {
   => null
 */
 function halve(number) {
-  if (typeof number !== "number") return null;
+  if (typeof number !== 'number') return null;
 
   return number / 2;
 }
